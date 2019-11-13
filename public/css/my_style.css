@@ -1,0 +1,107 @@
+body {
+	padding: 0px !important;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.m-0 {
+	margin: 0px !important;
+}
+
+.p-0 {
+	padding: 0px !important;
+}
+
+.width-0 {
+	width: 0px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/*Largura MULTISELECT PERMISSIÕES*/
+.ms-container {
+    width: auto;
+}
+.txt_transf_none {
+	text-transform: none;
+}
+
+.active_menu_a {
+	background-color: #2196f3 !important;
+	/*font-weight: bold;*/
+	color: white !important;
+}
+
+/*.folder-list li a:hover {
+    background: rgba(33, 150, 243, 0.08);
+}*/
+
+.li_menu {
+	font-size: 14px;
+	border: solid 1px #dedede;
+}
+
+
+
+
+/*LAPTOP L*/
+@media (min-width: 1440px) {
+	.size_box {
+		min-height: 216px;
+	}
+}
+
+/*LAPTOP*/
+@media (min-width: 1024px) and (max-width: 1439px) {
+	.size_box {
+		min-height: 238px;
+	}
+}
+
+/*TABLET*/
+@media (min-width: 768px) and (max-width: 1023px) {
+	.size_box {
+		min-height: 238px;
+	}
+}
+
+/*MOBILE L*/
+@media (min-width: 425px) and (max-width: 767px) {
+	.size_box {
+		min-height: auto;
+	}
+}
+
+/*MOBILE M*/
+@media (min-width: 375px) and (max-width: 424px) {
+	.size_box {
+		min-height: auto;
+	}
+}
+
+/*MOBILE S*/
+@media (min-width: 320px) and (max-width: 374px) {
+	.size_box {
+		min-height: auto;
+	}
+}
+
+
+@media (max-width: 1400px) {
+	.navbar.navbar-inverse.navbar-fixed-top .nav-header {
+	    width: auto;
+	}
+}
+
+/*ALTURA LI MENU TREEVIEW*/
+.treeview .list-group .list-group-item {
+    height: auto !important;
+}
+
+.txt-cap-unset {
+	text-transform: unset !important;
+}
